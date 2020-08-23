@@ -1,0 +1,31 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "CI/CD in AWS using Jenkins Pipeline, AWS ECS and blue/green deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=test node node_modules/lab/bin/lab -v -L -C -D"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfcb853/aws-jenkins-pipeline-v1.git"
+  },
+  "keywords": [
+    "node",
+    "docker"
+  ],
+  "author": "Javier Caparo",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.4.1"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^14.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/jfcb853/aws-jenkins-pipeline-v1/issues"
+  },
+  "homepage": "https://github.com/jfcb853/aws-jenkins-pipeline-v1#readme"
+}
